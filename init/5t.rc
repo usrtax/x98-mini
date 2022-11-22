@@ -1,0 +1,5 @@
+on post-fs-data
+  wait /dev/block/sda
+  mkdir /mnt/5t 0755 shell shell
+  mount ext4 /dev/block/sda /mnt/5t rw wait noatime nodelalloc nosuid nodev barrier=1 
+

@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@iuser/node-loader": "^0.0.46",
+    "@rmw/thisdir": "^0.0.2",
+    "aqdm": "^1.0.2",
+    "utax": "^0.0.26",
+    "zx": "^7.1.1"
+  },
+  "type": "module"
+}

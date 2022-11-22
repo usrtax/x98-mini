@@ -1,0 +1,8 @@
+on property:sys.boot_completed=1
+  start ftp
+
+service ftp /vendor/xbin/ftp
+  seclabel u:r:shell:s0
+  user root
+  group root
+  oneshot
