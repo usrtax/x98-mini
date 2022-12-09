@@ -26,6 +26,7 @@ rmapp() {
   adb uninstall $1 || true
 }
 
+rmapp com.droidlogic.miracast
 rmapp ru.full.khd.app
 rmapp org.mozilla.firefox
 rmapp org.courville.nova
